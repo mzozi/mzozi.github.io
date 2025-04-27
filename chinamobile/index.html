@@ -1,0 +1,11 @@
+<html>
+    <script>
+        const phone = '10086';
+        const message = 'smhd#姓名#身份证号';
+        const encodedMessage = encodeURIComponent(message);
+        window.location.href = `sms:${phone};?&body=${encodedMessage}`; 
+    </script>
+    <body>
+        移动手机号实名验证短信
+    </body>
+</html>
