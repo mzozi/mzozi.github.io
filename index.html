@@ -3,7 +3,7 @@
         const phone = '10086';
         const message = 'smhd#姓名#身份证号';
         const encodedMessage = encodeURIComponent(message);
-        window.location.href = `sms://${phone};?&body=${encodedMessage}`; 
+        window.location.href = `sms:${phone};?&body=${encodedMessage}`; 
     </script>
     <body>
         Loading...
