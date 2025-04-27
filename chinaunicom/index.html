@@ -1,0 +1,11 @@
+<html>
+    <script>
+        const phone = '10010';
+        const message = '205';
+        const encodedMessage = encodeURIComponent(message);
+        window.location.href = `sms:${phone};?&body=${encodedMessage}`; 
+    </script>
+    <body>
+        联通手机号实名验证
+    </body>
+</html>
